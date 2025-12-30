@@ -35,7 +35,7 @@ A native macOS application built with Flutter that provides a visual configurati
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/yabai-config/releases) page
+1. Download the latest release from the [Releases](https://github.com/avillagran/yabai_config.app/releases) page
 2. Unzip and move `yabai_config.app` to `/Applications`
 3. **Important:** Remove the quarantine attribute (required for unsigned apps):
    ```bash
@@ -60,8 +60,8 @@ A native macOS application built with Flutter that provides a visual configurati
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yabai-config.git
-cd yabai-config
+git clone https://github.com/avillagran/yabai_config.app.git
+cd yabai_config.app
 
 # Install dependencies
 fvm flutter pub get
@@ -83,7 +83,29 @@ The release build will be at `build/macos/Build/Products/Release/yabai_config.ap
 
 ## Screenshots
 
-*Coming soon*
+### Dashboard
+![Dashboard](screenshots/yabai_config-home.png)
+
+### General Configuration
+![General Config](screenshots/yabai_config-general-config.png)
+
+### Keyboard Shortcuts
+![Shortcuts](screenshots/yabai_config-shortcuts.png)
+
+### Window Exclusions
+![Exclusions](screenshots/yabai_config-exclusions.png)
+
+### Spaces Management
+![Spaces](screenshots/yabai_config-spaces.png)
+
+### Space Detail
+![Space Detail](screenshots/yabai_config-spaces-detail.png)
+
+### Backups
+![Backups](screenshots/yabai_config-backups.png)
+
+### Raw Config Editor
+![Raw Config](screenshots/yabai_config-raw.png)
 
 ## Contributing
 
