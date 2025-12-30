@@ -1,0 +1,25 @@
+name: yabai_config
+description: "Yabai Config - Visual configuration tool for Yabai window manager"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  macos_ui: ^2.0.0
+  flutter_riverpod: ^2.4.0
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
