@@ -55,8 +55,8 @@ app.*.map.json
 **/xcuserdata/
 **/Pods/
 
-# FVM
-.fvm/flutter_sdk
+# FVM (entire folder - only .fvmrc is needed)
+.fvm/
 
 # Release artifacts
 *.ipa
